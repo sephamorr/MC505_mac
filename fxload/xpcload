@@ -1,0 +1,3 @@
+#!/bin/bash
+cd `dirname $0`
+./fxload-osx -v -t fx2 -I xpc_firmware./xusb_emb.hex -D 03fd:000d
